@@ -20,9 +20,32 @@ Designed to scan the entire graph and enter values in the "Tag" & "Info" variabl
 <br> Read more: <https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm>
 
 
-<h3>How to Use</h3>
+<h2>How to download the project</h2>
+   First if you do not have git installed you will need to download from here: https://git-scm.com/
   <ol>
-    <li>Open a new folder for a project on your computer</li>
-    <li>Go to cmd and navigate to the new folder you opened</li>
-    <li>Copy and paste the following address in cmd:</br> git clone https://github.com/LiorAtiya/weighted_graph_algorithms.git</li>
+    <li>Select a destination to which you want to download the project</li>
+    <li>Enter cmd Navigate to the destination to which you want to download the project</li>
+    <li>Copy and paste the following address in cmd:</br></li>
   </ol>
+  
+  ```bash
+git clone https://github.com/LiorAtiya/weighted_graph_algorithms.git
+```
+
+<h2>How to use the project</h2>
+  <ul>
+    <li>Create a graph</li>
+  </ul>
+  
+      weighted_graph g = new WGraph_DS();
+      Methods: getNode, hasEdge, getEdge, addNode, connect, getV, removeNode, nodeSize, edgeSize, getMC
+      
+  <ul>
+    <li>Create a Graph Algorithm</li>
+  </ul>
+  
+      weighted_graph_algorithms wga = new WGraph_Algo();
+      Methods: init, getGraph, copy, isConnected, shortestPathDist, shortestPath, save, load
+      
+      
+    
